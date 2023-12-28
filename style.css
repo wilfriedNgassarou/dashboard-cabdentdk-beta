@@ -164,6 +164,44 @@ body {
   text-align: left;
 }
 
+.main .filter {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: end;
+  gap: 4rem;
+}
+.main .filter .search-input {
+  position: relative;
+}
+.main .filter .search-input input {
+  width: 100%;
+  height: 100%;
+}
+.main .filter .search-input span {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2568AE;
+  fill: white;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  display: inline-block;
+  position: absolute;
+}
+.main .filter .search-input span svg {
+  width: 40px;
+  height: 30px;
+}
+.main .filter div input {
+  padding: 0.3rem 2rem;
+}
+.main .filter button {
+  padding: 0.3rem 4rem;
+}
+
 .table-option-container div {
   display: flex;
   gap: 20px;
@@ -185,6 +223,38 @@ body {
 
 .main .svg-check {
   fill: green;
+}
+
+.main article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  height: 100%;
+}
+.main article h1 {
+  font-size: 24pt;
+  position: relative;
+}
+.main article h1 a {
+  position: absolute;
+  left: 0;
+}
+.main article h1 a svg {
+  height: 40px;
+  width: 40px;
+}
+.main article p {
+  font-size: 20pt;
+}
+.main article .action-container {
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+}
+.main article .action-container button {
+  height: 40px;
+  width: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */

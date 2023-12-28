@@ -16,3 +16,11 @@ navList.addEventListener('click', (e) => {
   li.classList.add('navlink-active')
 
 })
+
+const table = document.querySelector('.main table') ;
+
+table.addEventListener('click', (e) => {
+  if(!e.target.closest('tr')) return ;
+
+  window.location.href = 'appointment.html' ;
+})
